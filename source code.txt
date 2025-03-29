@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SGPA Calculator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>SGPA Calculator for Pune University Engineering</h1>
+  <div class="input-container">
+    <label for="subject1">Subject 1:</label>
+    <input type="number" id="subject1" min="0" max="10" step="0.01">
+  </div>
+  <div class="input-container">
+    <label for="subject2">Subject 2:</label>
+    <input type="number" id="subject2" min="0" max="10" step="0.01">
+  </div>
+  <div class="input-container">
+    <label for="subject3">Subject 3:</label>
+    <input type="number" id="subject3" min="0" max="10" step="0.01">
+  </div>
+  <div class="input-container">
+    <label for="subject4">Subject 4:</label>
+    <input type="number" id="subject4" min="0" max="10" step="0.01">
+  </div>
+  <div class="input-container">
+    <label for="subject5">Subject 5:</label>
+    <input type="number" id="subject5" min="0" max="10" step="0.01">
+  </div>
+  <button onclick="calculateSGPA()">Calculate SGPA</button>
+  <p id="result"></p>
+</div>
+<script src="script.js"></script>
+<img src="C:\Users\sayee\AppData\Local\Packages\microsoft.windowscommunicationsapps_8wekyb3d8bbwe\LocalState\Files\S0\3\Attachments\PicsArt_03-29-11.02.06[20].jpg" alt="error" height="400px" width="300px" class="left-corner-image">
+</body>
+</html>
